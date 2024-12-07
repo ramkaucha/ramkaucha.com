@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: 'Geist', sans-serif;
+};
+
+.light {
+    --background: 250, 249, 246;
+    --nav-button-active: 229, 231, 235;
+    --nav-button: 255, 249, 246;
+    --nav-text: 75, 85, 99;
+    --nav-text-active: 30, 30, 30;
+
+    background: rgba(var(--background));
+}
+
+.dark {
+    --background: 30, 30, 30;
+    --nav-button-active: 229, 231, 235,;
+    --nav-button: 30, 30, 30;
+
+    --nav-text: 192, 192, 192;
+    --nav-text-active: 255, 255, 255;
+
+    background: rgba(var(--background));
+}
