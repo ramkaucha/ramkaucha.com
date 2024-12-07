@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "compile": "sass --no-source-map src/style.scss:src/style.css --style expanded"
-  },
-  "dependencies": {
-    "sass": "^1.77.4"
-  }
-}
