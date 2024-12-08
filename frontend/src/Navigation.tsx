@@ -4,16 +4,11 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTheme } from 'next-themes';
 import ThemeSwitch from './components/ThemeSwitch';
+import { PageItem } from './interfaces';
 
 export default function Navigation() {
   const navigate = useNavigate();
   const { resolvedTheme } = useTheme();
-
-  interface PageItem {
-    name: string,
-    route: string,
-    current: boolean
-  }
 
   const [pages, setPages] = useState([
     {
@@ -47,7 +42,7 @@ export default function Navigation() {
   }
 
   return (
-    <div className="flex justify-between py-2 my-4">
+    <div className="flex justify-between py-5 my-5 mb-10">
       <div className='py-2'>
         <img src={logo} alt="logo" className='w-10 h-10 cursor-pointer' onClick={() => handleClick(pages[0])} />
       </div>

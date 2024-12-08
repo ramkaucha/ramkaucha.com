@@ -8,8 +8,6 @@ import { MoonIcon, ComputerDesktopIcon } from "@heroicons/react/20/solid";
 import { SunIcon } from "@heroicons/react/24/outline";
 import { AnimatePresence, motion } from "framer-motion";
 
-
-
 export default function ThemeSwitch() {
   const { theme, setTheme, resolvedTheme } = useTheme();
   const [ mounted, setMounted ] = useState(false);
