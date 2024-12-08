@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         sans: ['Geist', 'sans-serif'],
       },
+      screens: {
+        'xxs': '320px',
+      }
     },
   },
   plugins: [],

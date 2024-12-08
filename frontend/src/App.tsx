@@ -56,7 +56,7 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
-        <div className="container mx-auto w-[35%] flex-grow">
+        <div className="container mx-auto md:w-[35%] flex-grow px-4 md:px-0">
           <Navigation />
           <AnimatedRoutes />
         </div>

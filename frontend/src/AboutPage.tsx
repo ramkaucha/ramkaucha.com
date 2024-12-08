@@ -5,7 +5,7 @@ export default function About() {
         About Me
       </h1>
       <div className="space-y-6 text-base leading-relaxed">
-        <div className="rounded-2xl p-6 backdrop-blur-xl">
+        <div className="rounded-2xl px-6 py-4 backdrop-blur-xl">
           <p>
           Hey there! I'm Ram, a second-year Computer Science student at the 
           University of New South Wales, based in Sydney. My fascination with 

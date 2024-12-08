@@ -1,7 +1,7 @@
 export default function Project () {
   return (
     <div>
-      Project page
+      Under construction...
     </div>
   )
 
