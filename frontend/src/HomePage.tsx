@@ -21,7 +21,7 @@ export default function Home() {
   ];
 
   return (
-    <div>
+    <div className="px-6">
       <p className="text-[1.5em] font-medium py-1">
         hey there, i'm
       </p>

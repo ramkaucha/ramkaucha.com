@@ -14,8 +14,12 @@
     }
 
     body {
-      @apply transition-colors duration-1000;
+      @apply transition-colors duration-700;
       margin: 0;
       font-family: 'Geist', sans-serif;
+    }
+
+    * {
+        @apply transition-colors duration-700;
     }
 }
