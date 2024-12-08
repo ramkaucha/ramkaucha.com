@@ -6,7 +6,7 @@ export default function Home() {
   const { resolvedTheme } = useTheme();
   
   return (
-    <div className="px-6">
+    <div className="sm:px-6">
       <p className="text-[1.5em] font-medium py-1">
         hey there, i'm
       </p>
@@ -16,7 +16,7 @@ export default function Home() {
       <p className={`
         ${resolvedTheme === 'dark' ? "text-gray-400" : "text-gray-700"}
           py-1 `}>
-        i'm a second year student studying computer science <br/> at the university of new south wales
+        i'm a second year student studying computer science at the university of new south wales
       </p>
       <div className="py-4">
         <p className="text-lg font-medium">connect with me!</p>
