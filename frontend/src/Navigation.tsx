@@ -2,10 +2,12 @@ import { useNavigate } from 'react-router-dom';
 import logo from './assets/logo.svg'
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useTheme } from 'next-themes';
 import ThemeSwitch from './components/ThemeSwitch';
 
 export default function Navigation() {
   const navigate = useNavigate();
+  const { resolvedTheme } = useTheme();
 
   interface PageItem {
     name: string,
@@ -57,11 +59,16 @@ export default function Navigation() {
             aria-current={item.current ? 'page' : undefined}
             className={`
               text-sm sm:p-2 rounded-md my-3 leading-none h-fit
-              ${item.current ? 'text-black' : 'text-gray-600'}
+              ${item.current 
+                ? resolvedTheme === 'dark' ? 'text-white' : 'text-black'
+                : resolvedTheme === 'dark' ? 'text-gray-50' : 'text-gray-600'
+              }
             `}
             animate={{
-              backgroundColor: item.current ? "rgb(229, 231, 235)" : "rgb(255, 255, 255)"
-            }}
+              backgroundColor: item.current 
+                ? resolvedTheme === 'dark' ? "rgba(30, 41, 50, 1)" : "rgba(229, 231, 235, 1)"
+                : resolvedTheme === 'dark' ? "rgba(30, 30, 30, 0)" : "rgb(255, 255, 255, 0)"  
+              }}
             transition={ { duration: 0.5 }}
           >
             {item.name}

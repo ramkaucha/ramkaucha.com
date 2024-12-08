@@ -4,28 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    margin: 0;
-    font-family: 'Geist', sans-serif;
-};
+@layer base {
+    :root {
+        @apply bg-white text-gray-900;
+    }
 
-.light {
-    --background: 250, 249, 246;
-    --nav-button-active: 229, 231, 235;
-    --nav-button: 255, 249, 246;
-    --nav-text: 75, 85, 99;
-    --nav-text-active: 30, 30, 30;
+    .dark {
+        @apply bg-gray-900 text-gray-50;
+    }
 
-    background: rgba(var(--background));
-}
-
-.dark {
-    --background: 30, 30, 30;
-    --nav-button-active: 229, 231, 235,;
-    --nav-button: 30, 30, 30;
-
-    --nav-text: 192, 192, 192;
-    --nav-text-active: 255, 255, 255;
-
-    background: rgba(var(--background));
+    body {
+      @apply transition-colors duration-1000;
+      margin: 0;
+      font-family: 'Geist', sans-serif;
+    }
 }
