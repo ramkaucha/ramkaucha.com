@@ -56,13 +56,13 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
-        <div className="container mx-auto sm:w-[35%] flex-grow">
+        <div className="container mx-auto sm:w-[40%] flex-grow">
           <Navigation />
           <AnimatedRoutes />
         </div>
         <Footer />
       </div>
-    </Router> 
+    </Router>
   );
 }
 

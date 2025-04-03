@@ -1,7 +1,9 @@
-export default function Project () {
+import ProjectList from "./project/ProjectList";
+
+export default function Project() {
   return (
     <div>
-      Under construction...
+      <ProjectList />
     </div>
   )
 

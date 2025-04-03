@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rolemap",
+    "title": "RoleMap",
+    "description": "RoleMap is a application management system designed to modernise and simplify the job searching process. This is an all-in-one platform that combines intelligent tracking, document management and automation tools that help job seekers maintain an organised and effective job search campaign.",
+    "image": "/images/rolemap.png",
+    "techStack": ["react", "nextdotjs", "typescript", "python", "postgresql", "docker", "fastapi", "shadcnui",  "tailwindcss", "framer"],
+    "githubUrl": "https://github.com/ramkaucha/rolemap",
+    "defaultUrl": "https://github.com/ramkaucha/rolemap",
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "id": "cashflow",
+    "title": "CashFlow",
+    "description": "Cash is a modern expense tracking tool that helps you understand and optimise your spendings. Upload your transactions and get instant insights into your spending patterns, and make informed financial decisions.",
+    "image": "../images/cashflow.png",
+    "techStack": ["react", "nextdotjs", "typescript", "tailwindcss", "framer"],
+    "githubUrl": "https://github.com/ramkaucha/cashflow",
+    "demoUrl": "https://cashflow.ramkaucha.com",
+    "defaultUrl": "https://cashflow.ramkaucha.com",
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "id": "mdtoanki",
+    "title": "mdtoanki",
+    "description": "A AI powered CLI tool to convert markdown notes into Anki flashcards.",
+    "image": "../images/mdtoanki.png",
+    "techStack": ["python", "anthropic", "jupyter"],
+    "githubUrl": "https://github.com/ramkaucha/mdtoanki",
+    "defaultUrl": "https://github.com/ramkaucha/mdtoanki",
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "id": "portfolio-website",
+    "title": "Portfolio Website",
+    "description": "This is my personal portfolio website, the one you are currently on!",
+    "image": "./vite.svg",
+    "techStack": ["react", "vite", "tailwindcss", "framer"],
+    "githubUrl": "https://github.com/ramkaucha/ramkaucha.com",
+    "demoUrl": "https://ramkaucha.com",
+    "defaultUrl": "https://ramkaucha.com",
+    "createdAt": "2024-12-10T00:00:00Z"
+  }
+]

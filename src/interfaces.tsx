@@ -8,3 +8,20 @@ export interface PageItem {
   route: string,
   current: boolean
 }
+
+export interface Project {
+  id: string,
+  title: string,
+  description: string,
+  image: string,
+  techStack: string[],
+  blogId?: string,
+  githubUrl: string,
+  demoUrl?: string,
+  videoUrl?: string,
+  defaultUrl: string,
+  createdAt: string // date format here
+}
+
+
+export type ProjectList = Project[];
