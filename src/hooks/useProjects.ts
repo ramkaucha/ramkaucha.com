@@ -5,7 +5,6 @@ import { ProjectList } from "../interfaces";
 export function useProjects() {
   const [projects, setProjects] = useState<ProjectList>([]);
   const [loading, setLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -18,7 +17,7 @@ export function useProjects() {
         const data: ProjectList = await res.json();
         setProjects(data);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'An unknown error occurredd');
+        console.error(err);
       } finally {
         setLoading(false);
       }
@@ -27,5 +26,5 @@ export function useProjects() {
     fetchProjects();
   }, []);
 
-  return { projects, loading, error }
+  return { projects, loading }
 }

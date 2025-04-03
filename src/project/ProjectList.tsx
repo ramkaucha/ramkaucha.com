@@ -7,7 +7,7 @@ interface ProjectListProps {
 }
 
 export default function ProjectList({ max }: ProjectListProps) {
-  const { projects, loading, error } = useProjects()
+  const { projects, loading } = useProjects()
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
   if (loading) {
