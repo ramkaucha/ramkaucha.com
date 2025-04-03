@@ -7,18 +7,18 @@ export default function About() {
       <div className="space-y-6 text-base leading-relaxed">
         <div className="rounded-2xl px-6 py-4 backdrop-blur-xl">
           <p>
-          Hey there! I'm Ram, a second-year Computer Science student at the 
-          University of New South Wales, based in Sydney. My fascination with 
-          technology spans across software development, machine learning, and 
-          cybersecurity - I love exploring how these fields intersect and shape 
-          our digital world.
+            Hey there! I'm Ram, a final year Computer Science student at the
+            University of New South Wales, based in Sydney. My fascination with
+            technology spans across software development, machine learning, and
+            cybersecurity - I love exploring how these fields intersect and shape
+            our digital world.
           </p>
         </div>
         <div className="rounded-2xl px-6 background-blur-xl">
           <p>
-          When I'm not buried in coursework, you'll find me working on random tech
-          projects, currently tinkering with arduino to make my own self flying
-          drone.
+            When I'm not buried in coursework, you'll find me working on random tech
+            projects, currently tinkering with arduino to make my own self flying
+            drone.
           </p>
           <p className="mt-4">
             <span>You can find more information on what I'm working on </span>
@@ -27,7 +27,7 @@ export default function About() {
               target="_blank"
               rel="noopener"
               className="underline text-blue hover:opacity-80"
-              >
+            >
               here
             </a>
             .
