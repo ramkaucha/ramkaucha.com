@@ -23,12 +23,23 @@
   {
     "id": "mdtoanki",
     "title": "mdtoanki",
-    "description": "A AI powered CLI tool to convert markdown notes into Anki flashcards.",
+    "description": "An AI powered CLI tool to convert markdown notes into Anki flashcards.",
     "image": "../images/mdtoanki.png",
     "techStack": ["python", "anthropic", "jupyter"],
     "githubUrl": "https://github.com/ramkaucha/mdtoanki",
     "defaultUrl": "https://github.com/ramkaucha/mdtoanki",
     "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "id": "fata",
+    "title": "Fata`",
+    "description": "Fata is a dynamic fake data generator, input your headers and create fake data!",
+    "image": "./images/fata.png",
+    "techStack": ["react", "vite", "daisyui", "tailwindcss"],
+    "githubUrl": "https://github.com/ramkaucha/fata",
+    "demoUrl": "https://fata.ramkaucha.com",
+    "defaultUrl": "https://fata.ramkaucha.com",
+    "createdAt": "2025-05-31T00:00:00Z"
   },
   {
     "id": "portfolio-website",
